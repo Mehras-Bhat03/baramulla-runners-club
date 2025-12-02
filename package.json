@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "```\r Baramulla Runners Club/\r ├── index.html          # Main HTML file\r ├── css/\r │   └── style.css      # All styles with custom color theme\r ├── js/\r │   └── script.js      # Interactive functionality\r ├── images/\r │   ├── logo.png                    # Club logo (NEEDED)\r │   ├── hero-bg.jpg                 # Hero section background (NEEDED)\r │   ├── about-placeholder.jpg       # About section image (NEEDED)\r │   ├── join-placeholder.jpg        # Join section image (NEEDED)\r │   ├── gallery/\r │   │   ├── placeholder1.jpg        # Gallery images (NEEDED)\r │   │   ├── placeholder2.jpg\r │   │   ├── placeholder3.jpg\r │   │   ├── placeholder4.jpg\r │   │   ├── placeholder5.jpg\r │   │   └── placeholder6.jpg\r │   └── testimonials/\r │       ├── member1.jpg             # Testimonial photos (NEEDED)\r │       ├── member2.jpg\r │       └── member3.jpg\r └── README.md          # This file\r ```",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
