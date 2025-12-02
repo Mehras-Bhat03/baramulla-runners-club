@@ -90,41 +90,6 @@ export function initHero() {
           flex-wrap: wrap;
         }
         
-        .hero-stats {
-          position: absolute;
-          bottom: 3rem;
-          left: 50%;
-          transform: translateX(-50%);
-          display: flex;
-          gap: 3rem;
-          z-index: 2;
-        }
-        
-        .stat-box {
-          text-align: center;
-          color: var(--white);
-        }
-        
-        .stat-number {
-          font-size: 2.5rem;
-          font-weight: 800;
-          font-family: var(--font-heading);
-          background: var(--gradient-warm);
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-          background-clip: text;
-          line-height: 1;
-          margin-bottom: 0.5rem;
-        }
-        
-        .stat-label {
-          font-size: 0.875rem;
-          opacity: 0.9;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          font-weight: 600;
-        }
-        
         .scroll-hint {
           position: absolute;
           bottom: 2rem;
@@ -163,16 +128,8 @@ export function initHero() {
             margin: 0 auto;
           }
           
-          .hero-stats {
-            position: relative;
-            bottom: 0;
-            margin-top: 3rem;
-            gap: 2rem;
-            flex-wrap: wrap;
-          }
-          
-          .stat-number {
-            font-size: 2rem;
+          .scroll-hint {
+            display: none;
           }
         }
       </style>
