@@ -79,27 +79,27 @@ export function initGallery() {
         
         <div class="gallery-grid">
           <div class="gallery-item">
-            <img src="/images/gallery1.jpg" alt="BRC Group Run" loading="lazy">
+            <img src="./images/gallery1.jpg" alt="BRC Group Run" loading="lazy">
           </div>
           
           <div class="gallery-item">
-            <img src="/images/gallery2.jpg" alt="BRC Event" loading="lazy">
+            <img src="./images/gallery2.jpg" alt="BRC Event" loading="lazy">
           </div>
           
           <div class="gallery-item">
-            <img src="/images/gallery3.jpg" alt="BRC Community" loading="lazy">
+            <img src="./images/gallery3.jpg" alt="BRC Community" loading="lazy">
           </div>
           
           <div class="gallery-item">
-            <img src="/images/gallery4.jpg" alt="BRC Running" loading="lazy">
+            <img src="./images/gallery4.jpg" alt="BRC Running" loading="lazy">
           </div>
           
           <div class="gallery-item">
-            <img src="/images/gallery5.jpg" alt="BRC Team" loading="lazy">
+            <img src="./images/gallery5.jpg" alt="BRC Team" loading="lazy">
           </div>
           
           <div class="gallery-item">
-            <img src="/images/about-community.jpg" alt="BRC Family" loading="lazy">
+            <img src="./images/about-community.jpg" alt="BRC Family" loading="lazy">
           </div>
         </div>
         

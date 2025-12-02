@@ -194,7 +194,7 @@ export function initNavbar() {
       
       <div class="nav-container">
         <div class="nav-logo">
-          <img src="/images/logo.png" alt="Baramulla Runners Club" class="logo-img">
+          <img src="./images/logo.png" alt="Baramulla Runners Club" class="logo-img">
           <span class="logo-text">Baramulla Runners Club</span>
         </div>
         

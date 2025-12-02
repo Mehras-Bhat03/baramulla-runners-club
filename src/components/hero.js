@@ -5,7 +5,7 @@ export function initHero() {
         .hero {
           min-height: 100vh;
           background: linear-gradient(135deg, rgba(45, 106, 79, 0.88) 0%, rgba(0, 119, 182, 0.82) 100%),
-                      url('/images/hero-bg.jpg') center/cover no-repeat;
+                      url('./images/hero-bg.jpg') center/cover no-repeat;
           display: flex;
           align-items: center;
           justify-content: center;

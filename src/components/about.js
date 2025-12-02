@@ -202,8 +202,8 @@ export function initAbout() {
             </div>
             
             <div class="about-visual">
-              <img src="/images/about-community.jpg" alt="Our Running Community" onerror="this.src='https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&h=600&fit=crop'">
-              <img src="/images/about-2.jpg" alt="BRC Community" onerror="this.src='https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop'">
+              <img src="./images/about-community.jpg" alt="Our Running Community" onerror="this.src='https://images.unsplash.com/photo-1552674605-db6ffd4facb5?w=800&h=600&fit=crop'">
+              <img src="./images/about-2.jpg" alt="BRC Community" onerror="this.src='https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=800&h=600&fit=crop'">
             </div>
           </div>
         </div>
