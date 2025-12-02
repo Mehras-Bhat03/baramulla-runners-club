@@ -13,15 +13,17 @@ export function initEvents() {
         
         .events-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+          grid-template-columns: 1fr;
           gap: 2rem;
+          max-width: 700px;
+          margin: 0 auto;
         }
         
         .event-card {
           background: linear-gradient(135deg, var(--cream) 0%, var(--white) 100%);
           border-radius: var(--radius-xl);
           overflow: hidden;
-          box-shadow: var(--shadow-md);
+          box-shadow: var(--shadow-lg);
           transition: var(--transition);
           border: 2px solid transparent;
         }
@@ -30,6 +32,12 @@ export function initEvents() {
           transform: translateY(-10px);
           box-shadow: var(--shadow-xl);
           border-color: var(--orange-light);
+        }
+        
+        .event-image {
+          width: 100%;
+          height: 300px;
+          object-fit: cover;
         }
         
         .event-header {
@@ -121,86 +129,35 @@ export function initEvents() {
         <div class="events-container">
           <div class="events-grid">
             <div class="event-card">
+              <img src="./images/herath-marathon.jpg" alt="Herath Half Marathon" class="event-image">
               <div class="event-header">
-                <div class="event-date">Every</div>
-                <div class="event-month">Week</div>
+                <div class="event-date">08</div>
+                <div class="event-month">February 2026</div>
               </div>
               <div class="event-body">
-                <h3 class="event-title">Morning Group Run</h3>
+                <h3 class="event-title">3rd Herath Half Marathon</h3>
                 <p class="event-description">
-                  Start your day with energy! Join fellow runners for our regular morning run. All paces welcome – we run together, not apart.
+                  It is with immense pleasure that Jammu Hills Sports Foundation announces the 3rd Edition of the HERATH HALF MARATHON. Join us for this prestigious running event!
                 </p>
                 <div class="event-details">
                   <div class="event-detail-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <span>Baramulla Town</span>
+                    <span>Jammu, J&K</span>
                   </div>
                   <div class="event-detail-item">
-                    <i class="fas fa-clock"></i>
-                    <span>Early Morning</span>
+                    <i class="fas fa-calendar"></i>
+                    <span>08th February 2026</span>
                   </div>
                   <div class="event-detail-item">
-                    <i class="fas fa-users"></i>
-                    <span>All Levels Welcome</span>
+                    <i class="fas fa-running"></i>
+                    <span>Half Marathon Event</span>
+                  </div>
+                  <div class="event-detail-item">
+                    <i class="fas fa-trophy"></i>
+                    <span>Organized by Jammu Hills Sports Foundation</span>
                   </div>
                 </div>
-                <span class="event-tag">Regular Run</span>
-              </div>
-            </div>
-            
-            <div class="event-card">
-              <div class="event-header" style="background: var(--gradient-calm);">
-                <div class="event-date">TBD</div>
-                <div class="event-month">Soon</div>
-              </div>
-              <div class="event-body">
-                <h3 class="event-title">Beginner's Workshop</h3>
-                <p class="event-description">
-                  New to running? This is for you! Learn proper form, breathing techniques, and how to start your running journey safely.
-                </p>
-                <div class="event-details">
-                  <div class="event-detail-item">
-                    <i class="fas fa-chalkboard-teacher"></i>
-                    <span>Coaching & Tips</span>
-                  </div>
-                  <div class="event-detail-item">
-                    <i class="fas fa-heart"></i>
-                    <span>Friendly Environment</span>
-                  </div>
-                  <div class="event-detail-item">
-                    <i class="fas fa-certificate"></i>
-                    <span>No Experience Needed</span>
-                  </div>
-                </div>
-                <span class="event-tag">Beginners</span>
-              </div>
-            </div>
-            
-            <div class="event-card">
-              <div class="event-header" style="background: var(--gradient-warm);">
-                <div class="event-date">Coming</div>
-                <div class="event-month">2025</div>
-              </div>
-              <div class="event-body">
-                <h3 class="event-title">Trail Adventure Run</h3>
-                <p class="event-description">
-                  Experience the beauty of Baramulla's nature! A special trail run exploring scenic routes and making memories together.
-                </p>
-                <div class="event-details">
-                  <div class="event-detail-item">
-                    <i class="fas fa-mountain"></i>
-                    <span>Mountain Trails</span>
-                  </div>
-                  <div class="event-detail-item">
-                    <i class="fas fa-camera"></i>
-                    <span>Scenic Views</span>
-                  </div>
-                  <div class="event-detail-item">
-                    <i class="fas fa-mug-hot"></i>
-                    <span>Post-Run Hangout</span>
-                  </div>
-                </div>
-                <span class="event-tag">Adventure</span>
+                <span class="event-tag">Featured Event</span>
               </div>
             </div>
           </div>
